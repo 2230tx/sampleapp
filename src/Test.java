@@ -3,7 +3,7 @@ public class Test {
 
 	private static int id;
 	private static String name;
-	private static double sal;
+	
 
 	public static int getId() {
 		return id;
@@ -19,14 +19,6 @@ public class Test {
 
 	public static void setName(String name) {
 		Test.name = name;
-	}
-
-	public static double getSal() {
-		return sal;
-	}
-
-	public static void setSal(double sal) {
-		Test.sal = sal;
 	}
 
 	@Override
