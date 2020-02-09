@@ -21,6 +21,14 @@ public class Test {
 		Test.name = name;
 	}
 
+	public static double getSal() {
+		return sal;
+	}
+
+	public static void setSal(double sal) {
+		Test.sal = sal;
+	}
+
 	@Override
 	public String toString() {
 		return "Test []";
